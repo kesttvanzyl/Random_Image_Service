@@ -14,6 +14,8 @@ from pathlib import Path
 
 
 def dog():
+    # Update the path below to match the location of the dogs folder on your device
+    # If you are on a Windows operating system replace all \ with / to prevent an error
     dogs_folder_path = Path("C:/Users/kestt/OneDrive/4 Oregon State/CS 361/Random_Image_Service/dogs")
     rand_dog = random.choice(os.listdir(dogs_folder_path))
 
@@ -23,6 +25,8 @@ def dog():
 
 
 def cat():
+    # Update the path below to match the location of the cats folder on your device
+    # If you are on a Windows operating system replace all \ with / to prevent an error
     cats_folder_path = Path("C:/Users/kestt/OneDrive/4 Oregon State/CS 361/Random_Image_Service/cats")
     rand_cat = random.choice(os.listdir(cats_folder_path))
 
@@ -32,6 +36,8 @@ def cat():
 
 
 def car():
+    # Update the path below to match the location of the cars folder on your device
+    # If you are on a Windows operating system replace all \ with / to prevent an error
     cars_folder_path = Path("C:/Users/kestt/OneDrive/4 Oregon State/CS 361/Random_Image_Service/cars")
     rand_car = random.choice(os.listdir(cars_folder_path))
 
@@ -41,6 +47,8 @@ def car():
 
 
 def house():
+    # Update the path below to match the location of the houses folder on your device
+    # If you are on a Windows operating system replace all \ with / to prevent an error
     houses_folder_path = Path("C:/Users/kestt/OneDrive/4 Oregon State/CS 361/Random_Image_Service/houses")
     rand_house = random.choice(os.listdir(houses_folder_path))
 
@@ -50,6 +58,8 @@ def house():
 
 
 def landscape():
+    # Update the path below to match the location of the landscapes folder on your device
+    # If you are on a Windows operating system replace all \ with / to prevent an error
     landscapes_folder_path = Path("C:/Users/kestt/OneDrive/4 Oregon State/CS 361/Random_Image_Service/landscapes")
     rand_landscape = random.choice(os.listdir(landscapes_folder_path))
 
